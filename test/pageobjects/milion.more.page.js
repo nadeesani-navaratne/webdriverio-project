@@ -1,42 +1,42 @@
-class MilionMorePage{
-     /**
-     * define selectors using getter methods
-     */
-      get sitelogo () {
-        return $('//*[@id="site-nav-topbar-wrapper"]//a');
-    }
-
-    get acceptallbutton () {
-      return $('#onetrust-accept-btn-handler');
+class MilionMorePage {
+  /**
+  * define selectors using getter methods
+  */
+  get sitelogo() {
+    return $('//*[@id="site-nav-topbar-wrapper"]//a');
   }
 
-  get ourcarsnavigationbutton () {
-    return $(' //*[@id="nav:topNavCarMenu"]');
-}
+  get acceptallbutton() {
+    return $('#onetrust-accept-btn-handler');
+  }
 
-get ourcarsnavigationbutton () {
-  return $('#sitenav-sidenav-toggle');
-}
+  get ourcarsnavigationbutton() {
+    return $('//*[@id="nav:topNavCarMenu"]');
+  }
 
-get textontop () {
-  return $('//div["data-component="ModelIntro"]/section/h2');
-}
+  get ourcarsnavigationbutton() {
+    return $('//*[@id="sitenav-sidenav-toggle"]');
+  }
 
-get textstatement () {
-  return $('.TextStatement-1');
-}
+  get textontop() {
+    return $('//div["data-component="ModelIntro"]/section/h2');
+  }
 
-get safetyfeaturelist () {
-  return $('iconCallouts:iconTextItem');
-}
+  get textstatement() {
+    return $('.TextStatement-1');
+  }
 
-get learncarsaftylink(){
-  return $('a[data-autoid="iconCallouts:cta"]');
-}
+  get safetyfeaturelist() {
+    return $('iconCallouts:iconTextItem');
+  }
 
-get carmodelstitle(){
-  return $('[data-autoid="productListCarousel:title"]');
-}
+  get learncarsaftylink() {
+    return $('a[data-autoid="iconCallouts:cta"]');
+  }
+
+  get carmodelstitle() {
+    return $('[data-autoid="productListCarousel:title"]');
+  }
 
 
 
