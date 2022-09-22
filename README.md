@@ -66,8 +66,9 @@ To set up the application on your local server follow the instrunctions below.
 
 * Javascript
 * Mocha 
-* Selenium-Standalone service
+* Selenium-Standalone service(Java)
 * Docker
+
 
 
 ## Parallel Testing
@@ -81,5 +82,6 @@ To set up the application on your local server follow the instrunctions below.
 
    At the same time user can run the tests as well.
    npx wdio run ./wdio.conf.js allure generate allure-results && allure open
+   
       
 
