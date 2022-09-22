@@ -18,6 +18,25 @@ get ourcarsnavigationbutton () {
   return $('#sitenav-sidenav-toggle');
 }
 
+get textontop () {
+  return $('//div["data-component="ModelIntro"]/section/h2');
+}
+
+get textstatement () {
+  return $('.TextStatement-1');
+}
+
+get safetyfeaturelist () {
+  return $('iconCallouts:iconTextItem');
+}
+
+get learncarsaftylink(){
+  return $('a[data-autoid="iconCallouts:cta"]');
+}
+
+get carmodelstitle(){
+  return $('[data-autoid="productListCarousel:title"]');
+}
 
 
 
